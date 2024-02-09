@@ -1,0 +1,45 @@
+body {
+    background-color: #463d36;
+    font-family: sans-serif;
+    color: #463d36;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+
+.container h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #a6192e;
+    font-size: 28px;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 37px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 24px;
+
+}
+
+button {
+    border: 0;
+    border-radius: 0;
+    background-color: #463d36;
+    padding: 30px 40px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}

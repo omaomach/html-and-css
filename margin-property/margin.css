@@ -1,0 +1,22 @@
+h1 {
+    margin: -20px;
+}
+
+#container {
+    border: 1px solid purple;
+    background-color: lavender;
+    height: 400px;
+    width: 400px;
+}
+
+#container h3 {
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+    margin: 10px auto;
+}
+
+p {
+    border: 1px solid magenta;
+    margin: 20px 0 50px 0;
+}
