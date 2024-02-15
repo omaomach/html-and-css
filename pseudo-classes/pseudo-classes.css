@@ -48,4 +48,16 @@ p::selection {
     background-color: yellowgreen;
 }
 
+/* li:first-of-type {
+    border: 1px solid magenta;
+}
+
+li:last-of-type {
+    border: 1px solid magenta;
+} */
+
+li:nth-of-type(2n) {
+    background-color: lightgray;
+    text-align: center;
+}
 
