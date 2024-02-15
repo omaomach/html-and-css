@@ -25,3 +25,27 @@ button:active {
 input:focus {
     border: 5px solid greenyellow;
 }
+
+/* p::first-letter {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 200%;
+} */
+
+p:first-of-type::first-letter {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 200%;
+}
+
+input::placeholder {
+    font-weight: bold;
+    color: aqua;
+}
+
+p::selection {
+    color: red;
+    background-color: yellowgreen;
+}
+
+
