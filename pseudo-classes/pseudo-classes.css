@@ -1,0 +1,27 @@
+.pseudo-h1:hover {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2:hover {
+    color: orange;
+}
+
+input:disabled {
+    background-color: red;
+}
+
+input:enabled {
+    background-color: green;
+}
+
+a:visited {
+    color: indigo;
+}
+
+button:active {
+    background-color: pink;
+}
+
+input:focus {
+    border: 5px solid greenyellow;
+}
