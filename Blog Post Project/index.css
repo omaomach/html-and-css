@@ -91,3 +91,30 @@ code {
     font-weight: bold;
     margin-left: 20px;
 }
+
+footer {
+    background-color: #863ae8;
+}
+
+footer ul {
+    list-style: none;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 16px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover {
+    text-decoration: solid white underline;
+}
