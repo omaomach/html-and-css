@@ -9,6 +9,14 @@ p {
 #special {
     position: relative;
     background-color: yellow;
-    top: 40px;
+    top: 50px;
     left: 40px;
+    z-index: 1;
+    width: 50rem;
+}
+
+#z-index-positioning {
+    position: relative;
+    z-index: 3;
+    width: 50rem;
 }
