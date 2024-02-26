@@ -1,0 +1,12 @@
+span {
+  font-size: 2rem;
+  background-color: bisque;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
