@@ -20,3 +20,28 @@ p {
     z-index: 3;
     width: 50rem;
 }
+
+.box {
+    background-color: olive;
+    display: inline-block;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+}
+
+.box span {
+    color: white;
+    background-color: black;
+    position: absolute;
+    right: 0;
+}
+
+.orange-red {
+    background-color: orangered;
+    position: absolute;
+    display: inline-block;
+    width: 30rem;
+    height: 30rem;
+    top: 0;
+    right: 0;
+}
