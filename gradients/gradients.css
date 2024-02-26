@@ -1,0 +1,14 @@
+.box {
+    border: 2px solid black;
+    height: 50rem;
+    width: 50rem;
+    background-image: url("people.jpg");
+    background-size: cover;
+    filter: blur(3px);
+}
+
+img {
+    width: 500px;
+    /* filter: grayscale() contrast(80%); */
+    filter: hue-rotate(180deg);
+}
