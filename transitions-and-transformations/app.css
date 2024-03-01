@@ -1,0 +1,24 @@
+.btn {
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: aquamarine;
+    color: orangered;
+    /* transition: color 2s, background-color 2s; */
+    /* transition: all 2s; */
+    /* transition: transform 3s linear; */
+    /* transition: transform 3s cubic-bezier(0.2, -2, 0.8, 2); */
+    transition: transform 3s ease-in-out;
+}
+
+/* .btn:hover {
+    background-color: orangered;
+    transition: background-color 2s;
+    color: white;
+} */
+
+.btn:hover {
+    transform: translateX(300px);
+}
