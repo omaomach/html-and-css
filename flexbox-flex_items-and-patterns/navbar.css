@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    height: 100vh;
+    background: linear-gradient(cyan, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar {
@@ -34,4 +39,15 @@ body {
     width: 500px;
     /* margin-left: auto; */
     /* margin-right: 10px; */
+}
+
+.circle {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50%;
 }
