@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(cyan, purple);
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+}
