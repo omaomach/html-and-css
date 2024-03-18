@@ -1,0 +1,15 @@
+body {
+    background-color: burlywood;
+}
+
+@media (min-width: 800px) {
+    body {
+        background-color: red; 
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: yellow; 
+    }
+}
