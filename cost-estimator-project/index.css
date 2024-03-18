@@ -70,3 +70,66 @@ h1 {
     top: 98px;
     background-color: rgb(231, 231, 231);
 }
+
+.toggle-wrapper {
+    display: flex;
+}
+
+.toggle-wrapper img {
+    height: 40px;
+    margin: 0 16px;
+}
+
+.toggle {
+    background-color: rgb(83, 49, 156);
+    height: 32px;
+    width: 140px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px 0 16px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.toggle span:first-of-type {
+    color: white;
+}
+
+.toggle span:last-of-type {
+    background-color: white;
+    color: rgb(83, 49, 156);
+    padding: 4px 16px;
+    border-radius: 20px;
+}
+
+.sessions-card {
+    background-color: rgb(250, 247, 255);
+    text-align: center;
+    padding: 32px;
+    width: 50%;
+    text-transform: uppercase;
+    margin: 16px 0;
+    border-radius: 10px;
+}
+
+.sessions-card p {
+    color: rgb(44, 44, 44);
+    font-size: 12px;
+    font-weight: bold;
+    margin: 16px 0 0 0;
+}
+
+.sessions-card .number {
+    color: rgb(83, 49, 156);
+    font-size: 56px;
+    margin: 0;
+}
+
+.description {
+    line-height: 32px;
+    margin: 16px 0 32px 0;
+}
