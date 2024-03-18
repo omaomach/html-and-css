@@ -2,14 +2,48 @@ body {
     background-color: burlywood;
 }
 
-@media (min-width: 800px) {
+/* @media (max-width: 800px) {
     body {
         background-color: red; 
     }
-}
+} */
 
-@media (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
     body {
         background-color: yellow; 
     }
+} */
+
+/* @media only screen and (min-height: 800px) {
+    body {
+        background-color: aliceblue;
+    }
+} */
+
+h1 {
+    font-size: 3rem;
 }
+
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: yellowgreen;
+    }
+    h1::before {
+        content: "portrait"
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: blueviolet;
+    }
+    h1::before {
+        content: "landscape"
+    }
+}
+
+/* @media only print {
+    h1 {
+        font-size: 10rem;
+    }
+} */
