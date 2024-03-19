@@ -1,4 +1,4 @@
-.container {
+/* .container {
     display: flex;
     flex-wrap: wrap;
 }
@@ -37,5 +37,42 @@
     .box {
         flex: 1 1 100%;
     }
+} */
+
+header, footer {
+    background-color: purple;
+    height: 400px;
 }
 
+article {
+    background-color: teal;
+    height: 400px;
+}
+
+aside {
+    background-color: aquamarine;
+    height: 400px;
+}
+
+@media only screen and (min-width: 1000px) {
+    main {
+        display: flex;
+    }
+    article {
+        flex: 1 1 70%;
+    }
+    aside {
+        flex: 1 1 30%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    article {
+        flex: 1 1 80%;
+    }
+
+    aside {
+        flex: 1 1 20%;
+    }
+
+}
