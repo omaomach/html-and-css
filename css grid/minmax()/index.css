@@ -1,0 +1,19 @@
+.container {
+    height: 700px;
+    width: 80%;
+    margin: 200px auto;
+    background-color: black;
+    box-shadow: 0 6px 20px #00000033;
+    display: grid;
+    /* grid-template-columns: minmax(500px, 700px) minmax(500px, 700px); */
+    /* grid-template-columns: minmax(500px, 1fr) minmax(500px, 2fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(200px, auto);
+
+}
+
+.box {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
